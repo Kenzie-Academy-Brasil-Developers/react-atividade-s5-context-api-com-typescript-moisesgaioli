@@ -1,0 +1,45 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.product {
+    background-color: white;
+    padding: 17px;
+    margin: 15px;
+}
+
+.product-title {
+    font-size: 20px;
+    color: black;
+}
+
+.product-description {
+    font-size: 13px;
+    color: #7a7575;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.product-image {
+    width: 200px;
+}
+
+.product-price {
+    color: #8E16A2;
+    font-weight: bold;
+}
+
+.product-button {
+    background-color: #8E16A2;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.title-page {
+    color: black;
+}
